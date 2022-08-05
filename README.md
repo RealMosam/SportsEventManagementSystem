@@ -30,10 +30,21 @@
 
 2) Open Command prompt from the same location of angular files and enter "ng serve" and press Enter.
 
-3)Now Angular works from localhost:4200.
+3) Now Angular works from localhost:4200.
 
 ---- SQL SETUP ----
-1) In PlayerSerivceDb  and SportEventServiceDb insert values for Sports and Events Table
+1) In PlayerService database insert values for Sports table
+
+Sports Table
+
+insert into sports values('Cricket',30,'Outdoor'),
+('FootBall',20,'Outdoor'),
+('Hockey',22,'Outdoor'),
+('Chess',2,'Indoor'),
+('Carroms',4,'Indoor'),
+('Badminton',22,'Outdoor');
+
+2 ) In SportEventService database insert values for Sports and Events Table
 
 Events Table
 
@@ -51,7 +62,7 @@ insert into sports values('Cricket',30,'Outdoor'),
 ('Carroms',4,'Indoor'),
 ('Badminton',22,'Outdoor');
 
-2)In Participation Db inserts values for Sports and Events Table
+2)In ParticipationDB database inserts values for Sports and Events Table
 
 Sports Table
 
