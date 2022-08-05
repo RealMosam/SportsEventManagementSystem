@@ -35,48 +35,48 @@
 ---- SQL SETUP ----
 1) In PlayerService database insert values for Sports table
 
-Sports Table
+	Sports Table
 
-insert into sports values('Cricket',30,'Outdoor'),
-('FootBall',20,'Outdoor'),
-('Hockey',22,'Outdoor'),
-('Chess',2,'Indoor'),
-('Carroms',4,'Indoor'),
-('Badminton',22,'Outdoor');
+		insert into sports values('Cricket',30,'Outdoor'),
+		('FootBall',20,'Outdoor'),
+		('Hockey',22,'Outdoor'),
+		('Chess',2,'Indoor'),
+		('Carroms',4,'Indoor'),
+		('Badminton',22,'Outdoor');
 
-2 ) In SportEventService database insert values for Sports and Events Table
+2) In SportEventService database insert values for Sports and Events Table
 
-Events Table
+	Events Table
 
-insert into events values(1,'IPL', 30, '2022-07-18'),
-(2,'FIFA', 30, '2022-07-18'),
-(3,'Worldcup', 100, '2022-07-18'),
-(4,'Championship', 20, '2022-07-18');
+		insert into events values(1,'IPL', 30, '2022-07-18'),
+		(2,'FIFA', 30, '2022-07-18'),
+		(3,'Worldcup', 100, '2022-07-18'),
+		(4,'Championship', 20, '2022-07-18');
 
-Sports Table
+	Sports Table
 
-insert into sports values('Cricket',30,'Outdoor'),
-('FootBall',20,'Outdoor'),
-('Hockey',22,'Outdoor'),
-('Chess',2,'Indoor'),
-('Carroms',4,'Indoor'),
-('Badminton',22,'Outdoor');
+		insert into sports values('Cricket',30,'Outdoor'),
+		('FootBall',20,'Outdoor'),
+		('Hockey',22,'Outdoor'),
+		('Chess',2,'Indoor'),
+		('Carroms',4,'Indoor'),
+		('Badminton',22,'Outdoor');
 
-2)In ParticipationDB database inserts values for Sports and Events Table
+3) In ParticipationDB database inserts values for Sports and Events Table
 
-Sports Table
+	Sports Table
 
-insert into sports values('Cricket',30,'Outdoor'),
-('FootBall',20,'Outdoor'),
-('Hockey',22,'Outdoor'),
-('Chess',2,'Indoor'),
-('Carroms',4,'Indoor'),
-('Badminton',22,'Outdoor');
+		insert into sports values('Cricket',30,'Outdoor'),
+		('FootBall',20,'Outdoor'),
+		('Hockey',22,'Outdoor'),
+		('Chess',2,'Indoor'),
+		('Carroms',4,'Indoor'),
+		('Badminton',22,'Outdoor');
 
-Event Table
+	Event Table
 
-insert into events values(1,'IPL', '2022-07-18',30),
-(2,'FIFA', '2022-07-18',40),
-(3,'Worldcup', '2022-07-18',100),
-(4,'Championship', '2022-07-18',20);
+		insert into events values(1,'IPL', '2022-07-18',30),
+		(2,'FIFA', '2022-07-18',40),
+		(3,'Worldcup', '2022-07-18',100),
+		(4,'Championship', '2022-07-18',20);
 
