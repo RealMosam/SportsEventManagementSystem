@@ -3,7 +3,7 @@
 
 1) Open SQL Server and Connect.
 
-2) Open .sln extension files (Microservices solution files) in microservices from Visual Studio 2019.
+2) Open .sln extension files (Microservices solution files) in microservices from Visual Studio 2022.
 
 3) If you open .sln files from a different system, do change the following things in your system. else GOTO 4).
 
