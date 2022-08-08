@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsEventsMicroService", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsTesting", "SportsTesting\SportsTesting.csproj", "{2BFFA827-F348-4A59-A69C-20B97E634226}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsTesting", "EventsTesting\EventsTesting.csproj", "{DBE5A00D-3C69-450C-8841-396E67AFAC1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventsTesting", "EventsTesting\EventsTesting.csproj", "{DBE5A00D-3C69-450C-8841-396E67AFAC1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

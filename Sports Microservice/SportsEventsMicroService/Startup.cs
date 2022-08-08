@@ -43,7 +43,7 @@ namespace SportsEventsMicroService
                 options.SwaggerDoc("v1",
                     new Microsoft.OpenApi.Models.OpenApiInfo
                     {
-                        Title = "SportsEventsMicroService with SWAGGER",
+                        Title = "SportsEventsMicroService",
                         Version = "v1"
                     }) ;
                 options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -113,7 +113,7 @@ namespace SportsEventsMicroService
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
-                options.SwaggerEndpoint("/swagger/v1/swagger.json", "SportsEventsMicroService with SWAGGER");
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "SportsEventsMicroService");
             });
 
             app.UseRouting();
