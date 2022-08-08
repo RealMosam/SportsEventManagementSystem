@@ -35,7 +35,7 @@ namespace ParticipationMicroservice
         {
             // local db connection string
             var key = Configuration.GetValue<string>("TokenKey");
-            services.AddDbContext<ParticipationContext>(opts => opts.UseLazyLoadingProxies().UseSqlServer(Configuration["ConnectionString:ParticipationDB"]));
+            services.AddDbContext<ParticipationContext>(opts => opts.UseLazyLoadingProxies().UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             //services.AddDbContext<ParticipationContext>(opts => opts.UseLazyLoadingProxies().UseInMemoryDatabase("ParticipationDB"));
 

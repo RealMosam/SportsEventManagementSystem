@@ -38,7 +38,7 @@ namespace JwtAuthentication
             var key = Configuration.GetValue<string>("TokenKey");
             
             services.AddControllers();
-            services.AddDbContext<LoginDatabaseContext>(options => options.UseSqlServer(Configuration.GetConnectionString("LoginDb")));
+            services.AddDbContext<LoginDatabaseContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<IRepository<Login>,LoginManager>();
             services.AddSingleton<IJwtAuthenticationManager>(new JwtAuthenticationManager(key));
             services.AddSwaggerGen(c =>

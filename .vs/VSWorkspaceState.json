@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Player Microservice\\PlayerMicroService",
-    "\\Sports Microservice"
+    "\\Sports Microservice",
+    "\\Sports Microservice\\SportsEventsMicroService"
   ],
   "SelectedNode": "\\Sports Microservice\\SportsEventManagementSystem.sln",
   "PreviewInSolutionExplorer": false
