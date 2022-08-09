@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using MicroService2.Database;
+using PlayerMicroservice.Database;
 using PlayersMicroService.Database;
 
 namespace PlayerMicroService.Repositories

@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "MicroService2": {
+    "PlayerMicroservice": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger/index.html",

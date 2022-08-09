@@ -1,4 +1,4 @@
-using MicroService2.Database;
+using PlayerMicroservice.Database;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using NUnit.Framework;

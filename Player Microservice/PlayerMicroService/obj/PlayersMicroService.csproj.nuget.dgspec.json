@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MFPE\\MicroService2\\PlayersMicroService.csproj": {}
+    "C:\\MFPE\\PlayerMicroservice\\PlayersMicroService.csproj": {}
   },
   "projects": {
-    "C:\\MFPE\\MicroService2\\PlayersMicroService.csproj": {
+    "C:\\MFPE\\PlayerMicroservice\\PlayersMicroService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MFPE\\MicroService2\\PlayersMicroService.csproj",
+        "projectUniqueName": "C:\\MFPE\\PlayerMicroservice\\PlayersMicroService.csproj",
         "projectName": "PlayersMicroService",
-        "projectPath": "C:\\MFPE\\MicroService2\\PlayersMicroService.csproj",
+        "projectPath": "C:\\MFPE\\PlayerMicroservice\\PlayersMicroService.csproj",
         "packagesPath": "C:\\Users\\anith\\.nuget\\packages\\",
-        "outputPath": "C:\\MFPE\\MicroService2\\obj\\",
+        "outputPath": "C:\\MFPE\\PlayerMicroservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anith\\AppData\\Roaming\\NuGet\\NuGet.Config",

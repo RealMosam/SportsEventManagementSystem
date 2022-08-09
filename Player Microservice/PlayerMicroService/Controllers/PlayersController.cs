@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using MicroService2.Database;
+using PlayerMicroservice.Database;
 using PlayerMicroService.Repositories;
 using log4net;
 using Microsoft.AspNetCore.Authorization;

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace MicroService2.Database
+namespace PlayerMicroservice.Database
 {
     public class Player
     {

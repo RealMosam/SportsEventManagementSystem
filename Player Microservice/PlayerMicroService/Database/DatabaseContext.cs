@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using PlayersMicroService.Database;
 
-namespace MicroService2.Database
+namespace PlayerMicroservice.Database
 {
     public class DatabaseContext : DbContext
     {
