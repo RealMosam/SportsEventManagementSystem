@@ -3,13 +3,13 @@
 
 1) Open SQL Server and Connect.
 
-2) Open .sln extension files (Microservices solution files) in microservices from Visual Studio 2019.
+2) Open .sln extension files (Microservices solution files) in microservices from Visual Studio 2022.
 
-3) If you open .sln files from a different system, do change the following things in your system. else GOTO 4).
+3) If you open .sln files from a different system, do change the following things in your system.
 
 	-> After opening .sln files, delete Migrations folder.
 	
-	-> In appsettings.json, change Data source to SQL Server Name as in your system.
+	-> In appsettings.json, change Data source to SQL Server Name and database name as in your system.
 
 	-> Open Tools->NuGet Packet Manager->Packet Mangager Console. It opens at the left bottom with command like interface.
 
