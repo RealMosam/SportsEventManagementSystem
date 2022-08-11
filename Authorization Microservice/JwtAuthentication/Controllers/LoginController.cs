@@ -27,13 +27,14 @@ namespace JwtAuthentication.Controllers
             this.loginRepository = loginRepository;
             this.log = LogManager.GetLogger(typeof(LoginController));
         }
-        // GET: api/<LoginController>
-        //[HttpGet]
-        //public IActionResult Get()
-        //{
-        //    IEnumerable<Login> logins = loginRepository.GetAll();
-        //    return Ok(logins);
-        //}
+
+/*        // GET: api/<LoginController>
+        [HttpGet]
+        public IActionResult Get()
+        {
+            IEnumerable<Login> logins = loginRepository.GetAll();
+            return Ok(logins);
+        }*/
 
 
         [AllowAnonymous]
@@ -58,7 +59,7 @@ namespace JwtAuthentication.Controllers
             Login login = loginRepository.CreateLogin(userCred);
             if (login == null)
             {
-                return BadRequest("Username is already exists");
+                return BadRequest("Username already exists");
             }  
             return Ok(new {message="User registered successfully"});
         }

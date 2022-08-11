@@ -44,29 +44,6 @@ namespace JwtAuthentication
             services.AddSwaggerGen(c =>
             {
             c.SwaggerDoc("v1", new OpenApiInfo { Title = "Authorization Microservice", Version = "v1" });
-            //c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme {
-            //    In = ParameterLocation.Header,
-            //    Description = "Please Insert Token",
-            //    Name = "Authorization",
-            //    Type = SecuritySchemeType.Http,
-            //    BearerFormat = "JWT",
-            //    Scheme = "bearer"
-            //});
-
-            //    c.AddSecurityRequirement(new OpenApiSecurityRequirement
-            //    {
-            //        {
-            //            new OpenApiSecurityScheme
-            //            {
-            //                Reference=new OpenApiReference
-            //                {
-            //                    Type=ReferenceType.SecurityScheme,
-            //                    Id="Bearer"
-            //                }
-            //            },
-            //            new string[]{}
-            //        }
-            //    });
             });
 
             services.AddCors(options =>
@@ -76,29 +53,6 @@ namespace JwtAuthentication
                     builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
                 });
             });
-
-            
-            //services.AddAuthentication(x =>
-            //{
-            //    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-            //    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-
-            //}).AddJwtBearer(x=>
-            //{
-            //    x.RequireHttpsMetadata = false;
-            //    x.SaveToken = true;
-            //    x.TokenValidationParameters = new TokenValidationParameters
-            //    {
-            //        ValidateIssuerSigningKey = true,
-            //        IssuerSigningKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key)),
-            //        ValidateIssuer=true,
-            //        ValidateAudience=true,
-            //        ValidateLifetime=true,
-
-            //        ValidIssuer= "https://localhost:44375",
-            //        ValidAudience= "Admin"
-            //    };
-            //});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

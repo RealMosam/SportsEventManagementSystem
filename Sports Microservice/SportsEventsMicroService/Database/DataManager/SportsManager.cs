@@ -27,20 +27,6 @@ namespace SportsEventsMicroService.Database.DataManager
             return _Sportcontext.Sports.FirstOrDefault(e => e.SportId == id);
         }
 
-        // Commented because not required
-       //public void Add(Sport entity)
-        //{
-        //    _Sportcontext.Sports.Add(entity);
-        //    _Sportcontext.SaveChanges();
-        //}
-
-        // Commented Because not required
-        //public void Delete(Sport sport)
-        //{
-        //    _Sportcontext.Sports.Remove(sport);
-        //    _Sportcontext.SaveChanges();
-        //}
-
         public Sport GetByName(string name)
         {
             return _Sportcontext.Sports.FirstOrDefault(e => e.SportName == name);

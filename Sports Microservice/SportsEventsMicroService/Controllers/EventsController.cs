@@ -32,20 +32,6 @@ namespace SportsEventsMicroService.Controllers
             
         }
 
-
-        //[HttpGet("{id}", Name = "Get")]
-        //public IActionResult Get(int id)
-        //{
-        //    Event events = _dataRepository.Get(id);
-        //    if (events == null)
-        //    {
-        //        _logger.Warn("Searching Non Existent Event.");
-        //        return NotFound("Not Found");
-        //    }
-        //    return Ok(events);
-        //}
-
-
         [HttpGet("GetByName/{name}", Name = "GetEventByName")]
         public IActionResult GetByName(string name)
         {

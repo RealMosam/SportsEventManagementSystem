@@ -8,12 +8,5 @@ namespace SportsEventsMicroService.Database.Repository
     {
         IEnumerable<TEntity> GetAll();
         TEntity GetByName(string name);
-
-        // Commented because not required
-        //TEntity Get(int id);
-
-        //IEnumerable<TEntity> GetByName(string name);
-        // void Add(TEntity entity);
-        // void Delete(TEntity entity);
     }
 }

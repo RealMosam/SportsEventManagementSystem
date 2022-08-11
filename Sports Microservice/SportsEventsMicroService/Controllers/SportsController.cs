@@ -39,6 +39,11 @@ namespace SportsEventsMicroService.Controllers
                 _logger.Warn("Searching Non Existent Sport.");
                 return NotFound($"{name} Not Found");
             }
+            else if (name == null) 
+            {
+                _logger.Warn("Name cannot be null");
+                return BadRequest("Please enter Sport's name first.");
+            }
             return Ok(sport);
 
         }
