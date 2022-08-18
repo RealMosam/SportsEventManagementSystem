@@ -81,9 +81,6 @@ namespace EventsTesting
             // Arrange
             string name = "Rugby";
 
-            //Event events = new Event();
-            //mockDataRepository.Setup(x => x.GetByName(name)).Returns(events);
-
             // Act
             var result = _eventsController.GetByName(name);
             var BadResult = result as NotFoundObjectResult;
@@ -93,41 +90,6 @@ namespace EventsTesting
             Assert.AreEqual(404, BadResult.StatusCode);
 
         }
-        //[Test]
-        //public void Test_Get_Event_UsingID_WhenExists()
-        //{
-        //    // Arrange
-        //    int id = 2;
-        //    Event events = new Event();
-        //    mockDataRepository.Setup(x => x.Get(id)).Returns(events);
-
-        //    // Act
-        //    var result = _eventsController.Get(id);
-        //    var okResult = result as OkObjectResult;
-
-        //    // Assert
-        //    Assert.IsNotNull(okResult);
-        //    Assert.AreEqual(200, okResult.StatusCode);
-
-        //}
-        //[Test]
-        //public void Test_Get_Event_UsingID_WhenNotExists()
-        //{
-        //    // Arrange
-        //    int id=100;
-
-        //   // Event events = new Event();
-        //   // mockDataRepository.Setup(x => x.Get(id)).Returns(events);
-
-        //    // Act
-        //    var result = _eventsController.Get(id);
-        //    var BadResult = result as NotFoundObjectResult;
-
-        //    // Assert
-        //    Assert.IsNotNull(BadResult);
-        //    Assert.AreEqual(404, BadResult.StatusCode);
-
-        //}
 
         [Test]
         public void Test_Delete_Event_UsingID_WhenExists()
@@ -162,31 +124,6 @@ namespace EventsTesting
             // Assert
             Assert.IsNotNull(BadResult);
             Assert.AreEqual(404, BadResult.StatusCode);
-
-        }
-
-        [Test]
-        public void Test_Post_ValidEvent()
-        {
-            // Arrange
-            Event events = new Event();
-            {
-                events.EventId = 4;
-                events.SportId = 3;
-                events.EventName = "WorldCup";
-                events.NoOfSlots = 100;
-                events.Date = Convert.ToDateTime("7/18/2022 12:00:00 AM");
-                //2022 - 07 - 18
-            }
-            mockDataRepository.Setup(x => x.Add(events)).Returns(true);
-
-            // Act
-            var result = _eventsController.Post(events);
-            var okResult = result as CreatedAtRouteResult;
-
-            // Assert
-            Assert.IsNotNull(okResult);
-            Assert.AreEqual(201, okResult.StatusCode);
 
         }
 

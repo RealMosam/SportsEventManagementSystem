@@ -909,6 +909,13 @@ C:\Users\Mosam\Desktop\SportsEventManagementSystem-master\Project\Player Microse
 C:\Users\Mosam\Desktop\SportsEventManagementSystem-master\Project\Player Microservice\PlayerMicroService\obj\Debug\netcoreapp3.1\PlayerMicroService.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem-master\Project\Player Microservice\PlayerMicroService\obj\Debug\netcoreapp3.1\PlayerMicroService.pdb
 C:\Users\Mosam\Desktop\SportsEventManagementSystem-master\Project\Player Microservice\PlayerMicroService\obj\Debug\netcoreapp3.1\PlayerMicroService.genruntimeconfig.cache
+C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\log4net.config
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\appsettings.json
@@ -930,7 +937,6 @@ C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMic
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
@@ -971,19 +977,15 @@ C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMic
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\Moq.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
-C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
-C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
@@ -1001,7 +1003,6 @@ C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMic
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
@@ -1039,7 +1040,6 @@ C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMic
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
 C:\Users\Mosam\Desktop\SportsEventManagementSystem\Player Microservice\PlayerMicroService\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll

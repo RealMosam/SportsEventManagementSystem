@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Player Microservice",
-    "\\Player Microservice\\PlayerMicroService"
+    "\\Sports Microservice"
   ],
-  "SelectedNode": "\\Player Microservice\\PlayerMicroService\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }

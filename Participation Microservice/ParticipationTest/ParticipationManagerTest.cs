@@ -234,29 +234,6 @@ namespace ParticipationTest
         }
 
         [Test]
-        public void Test_Put_InValidParticipationId()
-        {
-
-            // Arrange
-            StatusModel statusModel = new StatusModel() { Status = "pending" };
-            string status = statusModel.Status;
-            long id = 1;
-            Participation participations = null;
-
-            mockDataRepository.Setup(x => x.Get(id)).Returns(participations);
-            //mockDataRepository.Setup(x => x.Update(participations, status)).Returns(false);
-
-            // Act
-            var result = _participationController.Put(id, statusModel);
-            var badResult = result as NotFoundObjectResult;
-
-            // Assert
-            Assert.IsNotNull(badResult);
-            Assert.AreEqual(404, badResult.StatusCode);
-
-        }
-
-        [Test]
         public void Test_Put_InValidParticipationStatus()
         {
 
